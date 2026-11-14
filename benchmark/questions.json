@@ -1,0 +1,252 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the French linguistic origin of the word 'retailing', and how does the 'breaking bulk' function assist manufacturers and wholesalers in reducing transportation costs?",
+    "expected_answer": "The word 'retailing' is derived from the French word 'retailer', meaning 'to cut a piece off'. To reduce transportation costs, manufacturers and wholesalers typically ship large cartons of the product, which retailers then tailor into smaller quantities to meet individual consumption needs.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 8,
+    "book_page": 3,
+    "evidence_quote": "Breaking bulk is another function performed by retailing. The word retailing is derived from the French word retailer, meaning 'to cut a piece off'. To reduce transportation costs, manufacturers and wholesalers typically ship large cartons of the product, which are then tailored by the retailers into smaller quantities to meet individual consumption needs.",
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How has the role of traditional supermarket buyers evolved into category managers, and how have their performance evaluation criteria changed?",
+    "expected_answer": "Traditionally, supermarket buyers were vendor-focused and evaluated mainly on securing price discounts rather than sales, gross margins, and inventory turns. As category managers, they are responsible for a set of products viewed as substitutes by customers (e.g., all packaged or canned pasta) and are evaluated based on the profitability of that entire category.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 13,
+    "book_page": 8,
+    "evidence_quote": "In recent years, the buyers' role in supermarket chain has evolved into a category manager. Traditional supermarket buyers were vendor focused... This focus was partially caused by evaluation systems that rewarded supermarket buyers more for securing price discounts rather than sales, gross margins, and inventory turns. Category managers are responsible for a set of products that are viewed as substitutes by customers... Category managers are evaluated on the profitability of their category",
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "conditional_or_exception",
+    "question": "Why does revenue cannibalization by new store locations pose no issue for corporate-owned retail chains, yet causes conflict in franchise systems?",
+    "expected_answer": "In a corporate-owned chain, new locations cannibalizing revenue from older stores is acceptable as long as total company revenue is maximized. In contrast, in franchise systems, an existing franchisee is understandably upset when a new franchisee location cannibalizes their local sales, viewing it as pirated revenue, regardless of whether system-wide revenue increases.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 21,
+    "book_page": 16,
+    "evidence_quote": "In doing so, the model usually allows new locations of the organisation (as long as total revenue is maximised) to cannibalise revenue from old locations. While this poses no problem to the corporate-owned chain, franchise systems are different. A current franchisee would be understandably upset if a new franchisee location cannibalises revenue at his/her, no matter that system-wide revenue increases. From the franchisee's perspective, the lost sales have been pirated away, just as surely as if by a competing system.",
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "direct",
+    "question": "Who is the largest specialist book retailer in the UK and Ireland featured in the case study, how many branches and employees does it have, and what is its shared purpose?",
+    "expected_answer": "Waterstone's, with more than 200 branches and approximately 4,200 employees. Its shared purpose is 'To be the world’s best loved and most profitable Booksellers'.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 22,
+    "book_page": 17,
+    "evidence_quote": "The largest specialist book retailer in the UK and Ireland is Waterstone's. It has more than 200 branches and employs approximately 4,200 people... The shared purpose within Waterstone's is simple, \"To be the world's best loved and most profitable Booksellers\".",
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the retail operations overview (Unit 1), how many items from how many companies do supermarkets offer on average through the sorting process, and what are the specialization examples of Westside and Nilgiris?",
+    "expected_answer": "Through the sorting process, supermarkets offer on average 15,000 different items from 500 companies. Westside provides clothing and accessories, while a chain like Nilgiris specializes in food and bakery items.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 7,
+    "book_page": 2,
+    "evidence_quote": "The above process is referred to as the sorting process. Through this process, retailers undertake activities and perform functions that add to the value of the products and services sold to the consumer. Supermarkets offer, on and average, 15,000 different items from 500 companies... Westside provides clothing and accessories, while a chain like Nilgiris specializes in food and bakery items.",
+    "filter": {
+      "unit": "unit_01"
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does the Diagonal Plan arrange shelves and racks, where is the cashier located, and which retail format is it best suited for?",
+    "expected_answer": "In a Diagonal Plan, shelves or racks are kept diagonal to each other for the owner or store manager to keep a watch on customers. It uses a perimeter design that causes angular traffic flow, with the cashier in a central, easily accessible location. It is best suited for self-service retail.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": [29, 30],
+    "book_page": [24, 25],
+    "evidence_quote": "Diagonal Plan: According to the diagonal floor plan, the shelves or racks are kept diagonal to each other for the owner or the store manager to have a watch on the customers. Diagonal floor plan works well in stores where customers have the liberty to walk in and pick up merchandise on their own. It uses perimeter design which cause angular traffic flow. The cashier is in a central location and easily accessible. This plan is most suited for self-service retail.",
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "conditional_or_exception",
+    "question": "Although the Curved Plan (angular floor plan) is more expensive, why is it used and which retail spaces is it best suited for?",
+    "expected_answer": "Although more expensive, the Curved Plan provides a sophisticated, intimate, and inviting environment through curved walls, corners, and ceiling, enhanced by circular floor fixtures. It is best suited for smaller upscale spaces like salons and boutiques.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 30,
+    "book_page": 25,
+    "evidence_quote": "Angular floor plan gives a more sophisticated look to the store. Such layouts are often seen in high end stores. It aims to create an intimate environment that is inviting. In this plan there is an emphasis on the structure of the space including the walls, corners and ceiling this is achieved by making the structure curved and is enhance by circular floor fixtures. Although this is a more expensive layout it is more suited to smaller spaces like salons and boutiques.",
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What are the four basic principles of store design, and what does the second principle remind retailers regarding the balance between aesthetic ambience and the product?",
+    "expected_answer": "The four principles are: (1) Totality, (2) Focus, (3) Ease of Shopping, and (4) Change and Flexibility. The second principle (Focus) reminds retailers that while aspiring to create beautiful shopping spaces, the primary focus within the store must remain on the product or merchandise; customers should feel comfortable rather than awed by the store ambience, since achieving sales is the primary step toward long-term sustainability.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": [34, 35],
+    "book_page": [29, 30],
+    "evidence_quote": "1. The first principle of store design is Totality... 2. The second principle is of focus wherein while aspiring to create beautiful places for the consumer to shop in, the retailer should not forget that the primary focus within the store has to be the product or the merchandise. While in a store, a customer should feel comfortable he should not be awed by the ambience of the store, achieving sales is the primary step towards being sustainable in the long run. 3. The third principle is of Ease of Shopping... 4. The last principle is of change and Flexibility.",
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "conditional_or_exception",
+    "question": "How does the choice of interior store materials differ between a food retailer and a young fashion retailer?",
+    "expected_answer": "A food retailer requires interior materials that are hygienic, easy to clean, and capable of withstanding heavy customer footfall, making high-quality materials a worthwhile investment. Conversely, a young fashion retailer emphasizes fashionable but less expensive furnishing materials, knowing that an updated refit will likely be required in less than five years.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 35,
+    "book_page": 30,
+    "evidence_quote": "Example: The store interior for a food retailer needs to be easy to clean and hygienic, but able to withstand high levels of customer footfall; high quality materials are therefore likely to be a worthwhile investment. Alternatively, a young fashion retailer will place more emphasis on less expensive but fashionable furnishings materials, in the knowledge that an updated refit is likely to be necessary in less than five years.",
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the unit covering store layout and design (Unit 2), how is 'visual merchandising' defined, and what merchandise presentation forms can retailers adopt?",
+    "expected_answer": "Visual merchandising is defined as designing the store interior in such a way as to influence customer buying behaviour (including optimum use of fixtures, displays, colour, lighting, music, scent, ceiling, and flooring). Presentation forms include idea-oriented presentation, item-oriented presentation, price lining, colour presentation, vertical merchandising, tonnage merchandising, and frontal presentation.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 32,
+    "book_page": 27,
+    "evidence_quote": "Designing the interior of a store in such a way as to influence customer behaviour is referred to as visual merchandising. It includes optimum and appropriate use of fixtures, displays, colour, lighting, music, scent, ceilings and floor, and designing all of these properly. Merchandise presentation is the most significant aspect of store design, because it helps attract customers' attention. A retailer can resort to many forms of presentation such as idea-oriented presentation, item-oriented presentation, price lining, colour presentation, vertical merchandising, tonnage merchandising and frontal presentation.",
+    "filter": {
+      "unit": "unit_02"
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What French term is 'hypermarket' derived from, who invented it in which year, and what are the required sales area and minimum space allocated to non-grocery products?",
+    "expected_answer": "The term is derived from the French word 'Hypermarche' (a combination of supermarket and department store), invented by retailer Carrefour in Sainte Genevieve des Bois near Paris in 1963. A retail store with a sales area over 2,500 sqm (or spanning 80,000 to 220,000 square feet) with at least 35% of selling space devoted to non-grocery products is classified as a hypermarket.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 47,
+    "book_page": 42,
+    "evidence_quote": "Hypermarkets: The word hypermarket is derived from the French word Hypermarche, which is a combination of a supermarket and department store. This retail business format has evolved since its invention by retailer Carrefour in Sainte Genevieve des Bois near Paris, in the year 1963. A retail store with a sales area of over 2,500 sqm, with at least 35% of selling space devoted to non-grocery products, is termed as a hypermarket. The stores occupies an area which ranges from anywhere between 80,000 to 2,20,000 square feet",
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What is the distinction in operational purpose between a 'retail distribution centre', an 'order fulfilment centre', and a 'cross-dock facility'?",
+    "expected_answer": "A retail distribution centre typically distributes goods to retail stores; an order fulfilment centre commonly distributes goods directly to consumers; and a cross-dock facility stores little or no product, distributing goods directly to other destinations.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 49,
+    "book_page": 44,
+    "evidence_quote": "The name by which the distribution centre is known is commonly based on the purpose of the operation. For example a \"retail distribution centre\" normally distributes goods to retail stores, an \"order fulfilment centre\" commonly distributes goods directly to consumers, and a cross-dock facility stores little or no product but distributes goods to other destinations.",
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "conditional_or_exception",
+    "question": "How does consumer behavior influence a banking company's choice of distribution channels between educated, computer-literate customers and rural customers with low literacy?",
+    "expected_answer": "If target consumers are well educated and computer literate, the bank can consider distributing financial products and education programs online. On the other hand, if the bank focuses on a rural area where target customers are less literate, the bank may have to utilize a direct distribution channel.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 50,
+    "book_page": 45,
+    "evidence_quote": "The behaviour of consumer has the utmost influence in deciding upon the choice of the distribution channel. For example for a banking company, if the target consumers are well educated and computer literate, they could consider distribution of financial products online. Even they could plan consumer education programs on financial products online. But, on the other hand if the bank focuses to capture a rural area where the target customers are more or less illustrate, the bank may have to look for a direct distribution channel.",
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "conditional_or_exception",
+    "question": "In a distribution centre, how does the Break-bulk (split case) department differ from the Bulk department in order size and equipment, and why might Break-bulk require more workers?",
+    "expected_answer": "The Bulk department controls and ships larger orders containing only full cartons/boxes using forklift trucks. Break-bulk (split case) is a lower-capacity version handling part boxes or items not requiring pallets from the bottom two pick-faces using trolleys or electric walkie low-lift trucks. Due to the large number of smaller customers served, Break-bulk may require more workers than the Bulk department.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 51,
+    "book_page": 46,
+    "evidence_quote": "Bulk: As a rule, a bulk department controls and ships larger orders or orders that contain only full cartons/boxes... Break-bulk: Break-bulk (also known as split case) is a lower-capacity version of the bulk department. Orders usually contain part boxes or items not requiring pallets. Due to the number of smaller customers a distribution centre may serve, a break-bulk department may need more workers than a bulk department. A break-bulk department usually uses trolleys or, for palleted/heavy orders, small electric PPT or walkie low lift trucks.",
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In pre-store opening operations (Unit 3 - operations role), what are the 14 operational functions executed during store opening?",
+    "expected_answer": "The 14 operations functions are: Pre Store Opening, Store Audit, Store Opening & Closing, Store SOP, Store Readiness, Annual Business Plan, Store Merchandise Handling, Store Budget & Financial, Store Administration, Store Staffing & Scheduling, Store Security, Loss Preventions & Shrinkage, Cash Management, and Customer Service.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": [43, 44],
+    "book_page": [38, 39],
+    "evidence_quote": "3.1.2 Operations Functions Following is the list of operations function during the opening of a store: • Pre Store Opening • Store Audit • Store Opening & Closing • Store SOP • Store Readiness • Annual Business Plan • Store Merchandise Handling • Store Budget & Financial • Store Administration • Store Staffing & Scheduling • Store Security • Loss Preventions & Shrinkage • Cash Management • Customer Service",
+    "filter": {
+      "unit": "unit_03",
+      "section": "operations"
+    }
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "In retail store location decisions, what five factors govern the selection of a specific city, and what four factors govern the selection of a particular area within that city?",
+    "expected_answer": "City selection factors: (1) Trading area of the city, (2) Retail trade potentiality, (3) Population, (4) Per capita income, (5) Distribution of income. Particular area factors: (1) Direction of development of the city, (2) Comparative strength of competitors in that area, (3) Planning regulations, and (4) Availability of easy routes.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": [18, 19],
+    "book_page": [13, 14],
+    "evidence_quote": "The selection of a particular city is affected by the following factors: 1. Trading area of the city 2. Retail trade potentiality 3. Population 4. Per Capita Income 5. Distribution of income. The selection of particular area is affected by the following factors: 1. Direction of development of the city 2. Comparative strength of competitors in that area 3. Planning regulations 4. Availability of easy routes",
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "conditional_or_exception",
+    "question": "In Rich's store organization chart, how do the duties of the three Assistant Store Managers differ, and when might the General Manager perform one of their roles?",
+    "expected_answer": "The Assistant Store Manager for Sales & Merchandising manages sales associates and merchandise presentation. The Assistant Manager for HR is responsible for selecting, training, and evaluating employees. The Assistant Store Manager for Operations oversees store maintenance, security, customer service (returns, complaints, gift wrapping), and receiving/shipping/storage. The General Manager may perform the tasks of an assistant store manager for merchandise when needed.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 15,
+    "book_page": 10,
+    "evidence_quote": "Figure 1.4 shows the organization chart of a Rich three assistant store managers reporting to them. The assistant store manager for sales and merchandising manages the sales associated and presentation of the merchandise in the store. The assistant manager for human resources is responsible for selecting, training, and evaluating employees. The assistant store manager for operations is responsible for store maintenance; store security; some customer service activities, such as returns, complaints, and gift wrapping; the receiving, shipping, and storage areas of the store, the general manager may perform the tasks done by an assistant store manager for merchandise.",
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "In 1995, when average store-opening costs reached $350,000, what specific actions did Starbucks take to reduce these costs and compress store development time from 24 to 18 weeks?",
+    "expected_answer": "Starbucks centralized buying, developed standard contracts and fixed fees for certain items, and consolidated work under contractors with strong cost-control practices. The retail operations group specified minimum equipment to order in volume at 20-30% discounts with just-in-time delivery. Additionally, modular display cases were created, and store layouts were designed on computers using software that estimated costs as the design evolved.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 37,
+    "book_page": 32,
+    "evidence_quote": "To better reduce average store-opening costs, which had reached an undesirably high $350,000 in 1995, the company centralized buying, developed standard contracts and fixed fees for certain items, and consolidated work under those contractors who displayed good cost-control practices. The retail operations group outlined exactly the minimum amount of equipment each core store needed, so that standard items could be ordered in volume from vendors at 20 to 30 percent discounts, then delivered just in time to the store site either from company warehouses or the vendor. Modular designs for display cases were developed. And the whole store layout was developed on a computer, with software that allowed the costs to be estimated as the design evolved. All this cut store-opening costs significantly and reduced store development time from 24 to 18 weeks.",
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "conditional_or_exception",
+    "question": "In distribution centre best practices, how does combining Advanced Shipping Notifications (ASN) with system-directed put away handle inbound shipments, and what risks occur without scheduled inbound receipts?",
+    "expected_answer": "Without scheduled inbound receipts, products arrive randomly, leaving carriers sitting in the yard for hours and preventing receipt prioritization. With ASN and system-directed put away, shipments can be: (1) cross-docked directly to shipping, (2) used to replenish pick locations below minimum, or (3) directed into reserve slots or consolidated into existing locations while preserving lot number integrity and FIFO rotation.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": [54, 55],
+    "book_page": [49, 50],
+    "evidence_quote": "Without scheduling inbound receipts, however, \"you'll randomly receive product as it arrives, and may have some carriers sitting in your yard for hours,\" McKnight warns. \"And you won't be able to prioritize your receipts.\" Knowing in advance what product will be received and when, combined with system-directed put away, makes it easier to treat incoming shipments appropriately. This could mean cross docking directly to shipping, or using the product to replenish a pick location that's below minimum. Or the system may direct you to put the product into a reserve slot, for example, consolidating a less-than-unit load put away in a location that already contains the same product. Of course, this assumes that you're not violating lot number integrity or first in, first out rotation requirements.",
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In pre-store opening and merchandising (Unit 3 - merchandise section), what is the key advantage and what is the cautionary risk of utilizing a centralized regional visual merchandising team?",
+    "expected_answer": "The advantage of a centralized team is that retail brand identity can be controlled consistently across all outlets and aligned with corporate communication themes. The cautionary danger is that a centralized approach may prevent the retailer from adapting to local themes, preferences, and competition in visual merchandising.",
+    "gold_source_id": "retail_store_management_dmgt553",
+    "gold_page": 45,
+    "book_page": 40,
+    "evidence_quote": "Often a multiple retailer will employ a team of regional visual merchandisers who rotate through a number of stores in a given area... One of the advantages of using a centralized team is that the retail brand identity can be controlled across all outlets, and visual merchandising can tie in with other corporate communication themes and messages. Caution There is, however, a danger that the centralized approach may prevent the retailer from adapting to local themes, preferences and competition in the visual merchandising activity.",
+    "filter": {
+      "unit": "unit_03",
+      "section": "merchandise"
+    }
+  }
+]

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"unit,section,book_page,page",none,BAAI/bge-m3 (dim=1024),"Co che co hoc de cat roi ram va lam dut gay cac cau phuc; du doan Hit@1 thap va diem Coherence thap.",3/15,7/15,1/5,3/5,Baseline co hoc
+B,by_paragraph,800,0,"unit,section,book_page,page",none,BAAI/bge-m3 (dim=1024),"Bao toan tron ven doan van va ranh gioi cau giup tang Coherence va Hit@3 so voi A nho giu nguyen ngu canh day du.",7/15,9/15,1/5,3/5,So sanh A-B ve chunking
+C,by_paragraph,800,0,"unit,section,book_page,page","unit,section",BAAI/bge-m3 (dim=1024),"Loc theo unit va section loai bo 100% nhieu tu cac chuong khac; du doan dat Hit@1 va Hit@3 cao nhat tren cac cau hoi co filter.",7/15,9/15,1/5,3/5,So sanh B-C ve metadata filter

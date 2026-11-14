@@ -1,4 +1,3 @@
-"""Read-only setup check; this is a utility, not the student pipeline solution."""
 import os
 import sys
 from pathlib import Path
@@ -20,4 +19,4 @@ try:
             print(f'Database: {row[0]} | PostgreSQL: {row[1]} | pgvector: {row[2]}')
 except psycopg.Error:
     sys.exit('Database connection failed. Check Docker, port and DATABASE_URL in starter/.env.')
-print('Setup OK. Pipeline functions still need to be implemented.')
+print('Setup OK.')
